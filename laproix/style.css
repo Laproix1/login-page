@@ -1,0 +1,81 @@
+body{
+    font-style :italic;
+    font-weight:bold;
+    font-family:sans-serif;
+    background:#f0f0ea;
+    }
+/* @font-face {
+        font-family: 'poppins';
+        src: url('poppins.eot');
+} */
+
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.form{
+  
+    background:white;
+    width: 350px;
+    height:auto;
+    text-align: center;
+    padding: 15px;
+}
+.image{
+    width :100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.image img{
+    height: 100px;
+    width: 100px;
+    border-radius: 50%;
+}
+
+.connect{
+    text-align: center;
+    font-size :24px;
+}
+
+input{
+    width: 95%;
+}
+
+.input input{
+    text-align: left;
+    height: 50px;
+    border-radius: 100px;
+    padding-left: 10px;
+}
+.forget{
+    text-align:right;
+    font-size: 18px;
+    font-weight: normal;
+}
+.login{
+    color: aliceblue;
+background-color: red;
+border-radius: 900px;
+width: 90%;
+height: 50px;
+}
+.account span{
+    font-size: 18px;
+    color: red;
+}
+.account{
+    text-align: center;
+}
+/* .form form{
+    justify-content: center;
+} */
+.label label{
+    text-align: left;
+}
+p{
+    text-align: left;
+}
